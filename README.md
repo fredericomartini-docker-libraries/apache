@@ -1,7 +1,19 @@
-# apache
-repository to manage docker apache versions
+# Apache
+### Repository to manage Dockerfiles of apache
 
-Modification file: <b>000-default.conf</b>:
+#### - Running under: 
+* debian 8.4
+
+#### - Installed:
+
+    apache2 
+    apache2-mpm-prefork 
+    apache2-prefork-dev 
+    apache2-utils 
+    apache2.2-common
+
+
+#### - Modification file: <b>000-default.conf</b>:
 
     <VirtualHost *:80>
         DocumentRoot /var/www/
@@ -15,4 +27,3 @@ Modification file: <b>000-default.conf</b>:
             Require all granted
         </Directory>
     </VirtualHost>
-

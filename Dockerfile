@@ -1,4 +1,4 @@
-FROM fredericomartini/debian:jessie-8.3-x86_64
+FROM fredericomartini/debian:8.4
 MAINTAINER Frederico Martini <fredmalmeida@gmail.com>
 
 # Let the conatiner know that there is no tty
