@@ -10,9 +10,9 @@ Modification file: <b>000-default.conf</b>:
         CustomLog ${APACHE_LOG_DIR}/access.log combined
     
         <Directory />
-            Options Indexes FollowSymLinks
-            AllowOverride All
+            Options FollowSymLinks
+            AllowOverride None 
             Require all granted
         </Directory>
     </VirtualHost>
-    
+
