@@ -5,8 +5,8 @@
 
 ###### VARIÁVEIS #####################
 WEB_DIR_FILES='/var/www/'
-CONTAINER_NAME='apache2-dev'
-DOCKER_REPO_IMG_TAG='fredericomartini/apache:2.4-dev'  #ex: fredericomartini/apache:2.0
+CONTAINER_NAME='apache2-prod'
+DOCKER_REPO_IMG_TAG='fredericomartini/apache:2.4-prod'  #ex: fredericomartini/apache:2.0
 LOCAL_PORT=80
 #####################################
 
