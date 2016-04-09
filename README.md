@@ -1,7 +1,7 @@
 # Apache
 ### Repository to manage Dockerfiles of apache
 
-#### - Running at:
+#### - Running under: 
 * debian 8.4
 
 #### - Installed:
