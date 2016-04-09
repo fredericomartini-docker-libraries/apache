@@ -1,0 +1,27 @@
+<VirtualHost *:80>
+    ServerName my-domain.com 
+    DocumentRoot /var/www/
+
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+    <Directory />
+        Options FollowSymLinks
+        AllowOverride None
+        Require all granted
+    </Directory>
+
+    Alias /site1 "/var/www/site1"
+    <Directory "/var/www/site1">
+        Options FollowSymLinks
+        AllowOverride None
+        Require  all granted
+    </Directory>
+
+    Alias /site2 "/var/www/site2"
+    <Directory "/var/www/site2">
+        Options FollowSymLinks
+        AllowOverride None
+        Require  all granted
+    </Directory>
+</VirtualHost>
