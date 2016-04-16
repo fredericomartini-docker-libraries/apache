@@ -4,6 +4,8 @@
 #### - Running under: 
 * debian 8.4
 
+#### - Apache Version: 2.4
+
 #### - Installed:
 
  - apache2 
