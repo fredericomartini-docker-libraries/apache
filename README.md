@@ -6,14 +6,14 @@
 
 #### - Installed:
 
-    apache2 
-    apache2-mpm-prefork 
-    apache2-prefork-dev 
-    apache2-utils 
-    apache2.2-common
+ - apache2 
+ - apache2-mpm-prefork 
+ - apache2-prefork-dev 
+ - apache2-utils 
+ - apache2.2-common
 
 
-#### - Modification file: <b>000-default.conf</b>:
+#### - Modification file: 000-default.conf
 
     <VirtualHost *:80>
         DocumentRoot /var/www/
