@@ -13,5 +13,5 @@ EXPOSE 80
 #clear cache
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-ENTRYPOINT ["apache2ctl", "-D", "FOREGROUND"]
+ENTRYPOINT ["service", "apache2", "start"]
 
