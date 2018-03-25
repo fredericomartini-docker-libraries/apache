@@ -14,7 +14,7 @@ INSTALL_SUCCESS=$?
 a2enmod rewrite > /dev/null 2>&1
 
 #remove 000-default
-rm -rf $APACHE_DIR/sites-enabled
+rm -rf $APACHE_DIR/sites-enabled/*
 
 #remove apache2.conf
 rm -rf $APACHE_DIR/apache2.conf
