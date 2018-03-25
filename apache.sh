@@ -20,13 +20,13 @@ rm -rf $APACHE_DIR/sites-enabled
 rm -rf $APACHE_DIR/apache2.conf
 
 #copy modifications to install dir
-cp -R /tmp/sites-enabled/ $APACHE_DIR/
+#cp -R /tmp/sites-enabled/ $APACHE_DIR/
 cp -R /tmp/apache2.conf $APACHE_DIR/
 
 #delete folder created on installation /var/www/html
-if [ -d '/var/www/html' ]; then
-    rm -rf /var/www/html/
-fi
+#if [ -d '/var/www/html' ]; then
+#    rm -rf /var/www/html/
+#fi
 
 #verify if installed with success
 if [ ! $INSTALL_SUCCESS -eq 0 ]; then
